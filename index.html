@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ED CODA</title>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="style.css">
     <!-- bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/53ff1dc194.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-      <!-- header section start here  -->
+      <!-- header section start here -->
       <nav class="navbar navbar-expand-lg navbar-white bg-white">
         <div class="container py-3">
           <a href="#"><img class="img-fluid" src="img/logo.png" alt="logo"></a>
-          <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> Menu
+          <button class="navbar-toggler bg-info text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
@@ -34,12 +38,55 @@
                 <a href="#" class="nav-link text-info" href="#">Contact</a>
               </li>
             </ul>
-            <a href="#" class="btn btn-outline-info" role="button">Register</a>
+            <a href="#" class="btn btn-outline-info d-none d-lg-block" role="button">Register</a>
           </div>
         </div>
       </nav>
       <!-- header section end here  --> 
 
+      <!-- slider section start here -->
+      <div id="carouselExampleCaptions" class="carousel slide container " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner rounded ">
+          <div class="carousel-item active">
+            <img src="img/banner image one.jpg" class="d-block w-100 " alt="...">
+            <div class="slider position-absolute top-50 start-50 translate-middle text-center text-white">
+              <h1>Learn without limits</h1>
+              <p>Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
+              <a href="#" class="btn btn-outline-info bg-info text-white" role="button">Register</a>   
+              </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="img/banner image two.jpg" class="d-block w-100" alt="...">
+            <div class="slider position-absolute top-50 start-50 translate-middle text-center text-white">
+              <h1>Get Started Digital Learning</h1>
+              <p>Over 4,000 courses in topics like business analytics, graphic design, Python, and more.</p>
+              <a href="#" class="btn btn-outline-info bg-info text-white" role="button">Register</a>   
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner image three.png" class="d-block w-100" alt="...">
+            <div class="slider position-absolute top-50 start-50 translate-middle text-center text-white">
+              <h1>Start Learning with Free Courses</h1>
+              <p>Free online courses from the world's top universities and companies.</p>
+              <a href="#" class="btn btn-outline-info bg-info text-white" role="button">Register</a>   
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- slider section end here -->
 
       <!-- bootstrap script tag  -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
