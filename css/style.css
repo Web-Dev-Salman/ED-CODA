@@ -16,3 +16,13 @@
     text-align: center;
 }
 }
+.faq-content{
+  width: 700px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .faq-content{
+    width: 100%;
+    text-align: center;
+}
+}
