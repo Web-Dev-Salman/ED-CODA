@@ -26,3 +26,25 @@
     text-align: center;
 }
 }
+.trust-content{
+  width: 700px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .trust-content{
+    width: 100%;
+    text-align: center;
+}
+}
+footer{
+  padding: 100px 0px;
+}
+.social-icons a{
+  padding: 0px 15px;
+  color:white;
+  background-color: #242424;
+  text-decoration: none;
+}
+.social-icons a:hover{
+  color:white;
+}
