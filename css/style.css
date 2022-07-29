@@ -1,0 +1,18 @@
+.carousel-item::before {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.377);
+}
+.successfull-students-content{
+    width: 576px;
+}
+@media only screen and (max-width: 768px) {
+  .successfull-students-content{
+    width: 100%;
+    text-align: center;
+}
+}
